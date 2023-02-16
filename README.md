@@ -1,12 +1,12 @@
-<h1 align="center">DT MONEY</h1>
+<h1 align="center">Ignite Timer</h1>
 
 <h1>
-  <img  src="https://user-images.githubusercontent.com/99735564/219474087-f8000062-30e4-4459-bb08-f5097f2b8693.png">
+  <img  src="https://user-images.githubusercontent.com/99735564/197846970-35535beb-d076-42b8-8670-6eac7d6b2692.png">
 </h1>
 
 ## 🧾Sobre
 
-O projeto DT Money faz parte da trilha de ReactJS da RocketSeat e coloca em prática conhecimentos de React e alguns de seus principais hooks (useState, useEffect, useContext, useReducer) e bibliotecas como react-hook-form e axios para a criação de uma aplicação de controle financeiro.
+O projeto Ignite Timer faz parte da formação em ReactJS da RocketSeat e coloca em prática conhecimentos de React e alguns de seus principais hooks (useState, useEffect, useContext, useReducer) para a criação de uma aplicação de timer de tarefas.
 
 ---
 
@@ -16,27 +16,23 @@ O Projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [Reactjs](https://reactjs.org)
 - Typescript
-- vite
 - Styled-components
-- React-hook-form
+- React-router-dom - roteamento e navegação entre as páginas
 - ZOD - validação de formulários
-- Axios
-- JSON server
-- Eslint
+- Bibliotecas (React-hook-form, date-fns)
 
 ---
 
 ## 🔨 Funcionalidades
 
-- `Funcionalidade 1`: Listar entradas e saídas com os respectivos valores e descrição;
-- `Funcionalidade 2`: Exibir por meio de um resumo a soma das entradas, saídas e total do mês;
-- `Funcionalidade 3`: Buscar por registros;
-- `Funcionalidade 4`: Inserir novos registros;
-- `Funcionalidade 5`: Excluir registros.
+- `Funcionalidade 1`: Adicionar tarefa e tempo;
+- `Funcionalidade 2`: Iniciar contagem;
+- `Funcionalidade 3`: Interromper contagem;
+- `Funcionalidade 4`: Consultar histórico.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/99735564/219475729-3b46793f-8181-4cd8-a48f-6758119aede6.png" width="400px"/>
-<img src="https://user-images.githubusercontent.com/99735564/219475740-bae81196-ed25-4611-aa6b-afb3e6a5fcf9.png" width="400px"/>
+<img src="https://user-images.githubusercontent.com/99735564/197848323-55eddfbf-ff5e-49c9-be13-d741bd4c3f18.png" width="400px"/>
+<img src="https://user-images.githubusercontent.com/99735564/197848349-347aa71f-0703-46de-b198-a7cef119e59c.png" width="400px"/>
 </div>
 
 ---
@@ -46,22 +42,14 @@ O Projeto foi desenvolvido utilizando as seguintes tecnologias
 ### Web
 
 ```bash
-
 # Clonar o Repositório
-$ git clone https://github.com/jpnakayama/dtmoney-rocketseat.git
-
+$ git clone https://github.com/jpnakayama/ignite-timer.git
 # Entrar no Repositório
-$ cd dt-money
-
+$ cd ignite-timer
 # Instalar as dependências
 $ npm install
-
 # Iniciar o Projeto
 $ npm run dev
-
-# Iniciar e observar servidor
-$ json-server server.json -w
-
 ```
 ---
 
